@@ -1,10 +1,14 @@
 for (var i = 0; i < (16 * 16); i++) {
 
-    var div = document.createElement("div");
+    const div = document.createElement("div");
+    div.id = "childDiv";
     div.style.width = "3em";
     div.style.margin = "0";
     div.style.padding = "0";
     div.style.flex = "0 1 calc(6.25%)";
+    div.addEventListener("mouseover", () => {
+        div.style.backgroundColor = "#777";
+    });
     //div.innerHTML = "hi";
 
     document.getElementById("container").appendChild(div);
