@@ -28,7 +28,11 @@ function createGrid (gridSize) {
         div.style.padding = "0";
         div.style.flex = `0 1 calc(${divisor}%)`;
         div.addEventListener("mouseover", () => {
-            div.style.backgroundColor = "#777";
+            let r = Math.floor(Math.random() * 255);
+            let g = Math.floor(Math.random() * 255);
+            let b = Math.floor(Math.random() * 255);
+            
+            div.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
         });
         //div.innerHTML = "hi";
     
