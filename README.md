@@ -1,0 +1,2 @@
+# Etch-a-Sketch Remake!
+Simple JS game following [this lesson](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) by the Odin Project and of the following [real-life product](https://en.wikipedia.org/wiki/Etch_A_Sketch)!
