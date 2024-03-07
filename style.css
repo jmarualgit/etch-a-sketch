@@ -4,7 +4,6 @@ body {
 }
 
 #container div {
-    background-color: lightgray;
     height: 4em;
     color: white;
     display: flex;
